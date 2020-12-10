@@ -1,0 +1,141 @@
+#slider
+{ 
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height:400px;
+}
+.slides
+{
+  position: absolute;
+  display: block;
+  width:4050px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide
+{
+
+  list-style-type: none;
+  width: 1350px;
+  height: 400px;
+  float: left;
+}
+.content
+{
+  position: absolute;
+  text-align: center;
+  top:30%;
+  color: white;
+  font-family:Itim;
+}
+.arrow
+{
+  position: absolute;
+  top: 40%;
+
+}
+.newbutton
+{ 
+  color: white;
+  font-family: 'Merienda one';
+  border-radius: 55px;
+}
+.heading
+{
+  color: white;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  padding-left:20%;
+  padding-top: 10%;
+}
+.divcontent
+{
+  position: absolute; 
+}
+.bannerpara
+{ 
+  padding-left:10%;
+  text-align: center;
+  color: white;
+  font-family: 'Itim', cursive;
+}
+
+.paginations
+{
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left:47%;
+}
+.pagecircle
+{ 
+  color: white;
+  font-size: 75px;
+ 
+}
+.pagecircle:hover
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img1
+    {
+      border-radius: 20% 70% 70% 20%;
+      z-index: -1;
+  }
+
+ .rounded1
+  {
+  border-radius: 20% 70% 70% 20%;
+  width: 70%;
+  height: 90%;
+  border-color:pink;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  bottom: 20%;
+    left: 15%;
+    z-index: 3;
+
+    }
+   .rounded2
+    {
+     border-radius: 20% 70% 70% 20%;
+     width: 75%;
+      height: 90%;
+      border-color:pink;
+      border-width: 5px;
+       border-style: solid;
+   position: absolute;
+         top: 10%;
+       right: 24%;
+z-index:-2;
+
+ }
+.img2
+{
+     border-radius: 20% 70% 70% 20%;
+}
+           #Features{}
+           #Reviews{}
+           #Signup{}
+           
+ .borderstyle
+ {
+   border-style: outset;
+     border-radius: 20px;
+} 
